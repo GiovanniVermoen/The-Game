@@ -1,6 +1,6 @@
 const BEGIN = "Welkom bij deze game. Vul de vragen goed in en verdien punten je kan maximaal 20 punten verdienen, let op de antwoorden zijn hoofdletter gevoelig en vul de voledige naam in van de speler dus voor en achternaam.";
 alert (BEGIN);
-if (pormpt("Vraag 1 - Welk land won in 2014 het WK?") == "Duitsland") {
+if (prompt("Vraag 1 - Welk land won in 2014 het WK?") == "Duitsland") {
  if (prompt("Vraag 2 - Welk team won in 2017 de Champions League?") == "Real Madrid") {
   if (prompt("Vraag 3 - Welke speler maakte dit jaar een transfer naar Juventus?") == "Cristiano Ronaldo") {
    if (prompt("Vraag 4 - Welke speler werd uitgeroepen tot talent van het jaar 2018?") == "Kylian Mbappe") {
@@ -13,7 +13,7 @@ if (pormpt("Vraag 1 - Welk land won in 2014 het WK?") == "Duitsland") {
           if (prompt("Vraag 11 - Welk land heeft het WK van 2018 gewonnen?") == "Frankrijk") {
            if (prompt("Vraag 12 - Wie is de duurste verdediger ooit gekocht?") == "Virgil van Dijk") {
             if (prompt("Vraag 13 - Welk land won het EK van 2016?") == "Portugal") {
-             if (prompt("Vraag 14 - Om de hoeveel jaar word er een WK gespeeld?") == "4" {
+             if (prompt("Vraag 14 - Om de hoeveel jaar word er een WK gespeeld?") == "4") {
               if (prompt("Vraag 15 - Uit welk land komt Jerome Boateng?") == "Duitsland") {
                if (prompt("Vraag 16 - Wie is de huidige hoofdtrainer van Feyenoord?") == "Giovanni van Bronkhorst") {
                 if (prompt("Vraag 17 - Welke speler heeft gespeeld bij Feyenoord, Ajax en Barcelona?") == "Johan Cruijf") {
