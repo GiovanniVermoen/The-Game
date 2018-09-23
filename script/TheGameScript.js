@@ -20,11 +20,11 @@ if (prompt("Vraag 1 - Welk land won in 2014 het WK?") == "Duitsland") {
                  if (prompt("Vraag 18 - Hoeveel Ballon D'ors heeft Lionel Messi gewonnen?") == "5") {
                   if (prompt("Vraag 19 - Welke speler is onder andere mede-eigenaar van het merk Balr. heeft gespeeld bij Feyenoord en speelt nu in Turkije?") == "Eljero Elia") {
                    if (prompt("Vraag 20 - In welk jaar is je FIFA opgericht?") == "1862") {
-
-                   }else {
-                     const VRAAGTWINTIG = "Jammer, je beht 19 punten gehaald je ben heel close maar je moest nog 1 punt voor de topscore volgende keer beter.";
-                     alert (VRAAGTWINTIG);
-                   }
+                       document.write("Heel goed gedaan je hebt het spel uitgespeeld, je bent echt een voetbal kenner.");
+                 }else {
+                   const VRAAGTWINTIG = "Jammer, je beht 19 punten gehaald je ben heel close maar je moest nog 1 punt voor de topscore volgende keer beter.";
+                   alert (VRAAGTWINTIG);
+                  }
                  }else {
                    const VRAAGNEGENTIEN = "Jammer, je hebt 18 punten gehaald nog maar 2 te gaan volgende keer beter.";
                    alert (VRAAGNEGENTIEN);
